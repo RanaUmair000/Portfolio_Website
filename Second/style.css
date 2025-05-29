@@ -1,0 +1,295 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    height: 700px;
+    background: url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1{
+    color: white;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+.logo h1 span{
+    color: rgb(255, 0, 43);
+}
+
+.menu{
+    display: flex;
+    gap: 64px;
+    font-size: 18px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-btn{
+    padding: 12px 30px;
+    border-radius: 8px;
+    background-color: rgb(255, 0, 43);
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.head-content{
+    color: white;
+    font-family: cursive;
+    position: absolute;
+    top: 26%;
+    left: 5%;
+    width: 86%;
+}
+
+.name h1{
+    font-size: 60px;
+    display: inline;
+}
+
+.name h1 span{
+    color: rgb(255, 0, 43);
+}
+
+.up-line h3,.tag-line{
+    font-size: 24px;
+}
+
+header input{
+    padding: 18px 10px;
+    width: 430px;
+    border-radius: 36px;
+    outline: none;
+    border: 2px solid rgb(255, 0, 43);
+}
+
+.content-btn{
+    padding: 14px 30px;
+    border-radius: 26px;
+    margin-left: -113px;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 0, 43);
+    color: white;
+    cursor: pointer;
+}
+
+
+.second-sec{
+    height: 80%;
+    background-color: rgb(18, 18, 18);
+    padding: 80px 0;
+    width: 100%;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 90%;
+    margin: 0 auto;
+    gap: 60px;
+}
+
+.left2 img{
+   width: 300px;
+   height: 480px;
+}
+
+.right2{
+    width: 50%;
+    color: white;
+}
+
+.right2 h1{
+    font-size: 52px;
+    display: inline;
+}
+
+.about-head2{
+    font-size: 52px;
+    display: none !important;
+    color: white;
+    text-align: center;
+}
+
+.right2 h3 span{
+    color: rgb(255, 0, 43);
+}
+
+.right2 p{
+    line-height: 25px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: cursive;
+    color: rgb(255, 220, 220);
+}
+
+.content2-btn{
+    color: white;
+    background-color: rgb(255, 0, 43);
+    padding: 14px 28px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.third-sec{
+    height: 75hv;
+    padding: 80px 0;
+    background-color: black;
+    width: 100%;
+}
+
+.container3{
+    color: white;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 28% 28% 28%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.card{
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(34, 34, 34);
+    padding: 30px 0;
+    margin-top: 80pxs;
+}
+
+.android{
+    color: rgb(255, 0, 43);
+    font-size: 72px;
+    text-align: center;
+    display: block;
+}
+
+.card h2{
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.card p{
+    font-size: 16px;
+    font-family: cursive;
+    padding: 0px 24px;
+    text-align: center;
+    line-height: 24px;
+    color: rgb(255, 220, 220);
+}
+
+.card-btn{
+    color: white;
+    background-color: rgb(255, 0, 43);
+    padding: 14px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: inherit;
+}
+
+.fourth-sec{
+    width: 100%;
+    height: 160px;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container4{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.f-head{
+    color: white;
+    font-family: cursive;
+    
+}
+
+.fourth-btn{
+    padding: 12px 34px;
+    background-color: rgb(255, 0, 43);
+    color: white;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+}
+
+.fifth{
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+.footer{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding-top: 20px;
+}
+
+.footer h1{
+    font-size: 44px;
+}
+
+.footer p{
+    font-size: 16px;
+    font-family: cursive;
+    text-align: center;
+    line-height: 24px;
+    color: rgb(255, 220, 220);
+    width: 40%;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.android1{
+    color: rgb(255, 0, 43);
+    font-size: 30px;
+}

@@ -1,0 +1,352 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+html{
+    font-size: 0.8vw;
+}
+
+header{
+    background: url(Data/bg.jpg);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding-bottom: 22rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav h1 span{
+    color: rgb(255, 15, 55);
+}
+
+nav button{
+    outline: none;
+    width: 10rem;
+    padding: .9rem;
+    border-radius: 4rem;
+    background-color: rgb(255, 15, 55);
+    margin-right: 5rem;
+    color: white;
+    font-size: 1.6rem;
+}
+
+nav button:hover{
+    background-color: black;
+    border: .2rem solid rgb(255, 15, 55);
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 1.6rem;
+}
+
+.logo{
+    margin-left: 6rem;
+    color: white;
+    letter-spacing: .12rem;
+    font-size: 4rem;
+}
+
+.menu a{
+    margin-right: 3rem;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+.menu a:hover,:link{
+    color: rgb(255, 15, 55);
+
+}
+
+.content{
+    margin-left: 7rem;
+    margin-top: 7rem;
+    padding-top: 2rem;
+}
+
+.content h2, h3, h1{
+    color: white;
+    line-height: 1.5rem;
+}
+
+.content h1{
+    font-size: 7rem;
+    font-family: cursive;
+}
+
+.content h1 span{
+    color: rgb(255, 15, 55);
+}
+
+.content h2, h3{
+    font-family: cursive;
+    font-size: 1.8rem;
+}
+
+input{
+    outline: none;
+    width: 35rem;
+    padding: 1.1rem;
+    border-radius: 4rem;
+    margin-top: 4rem;
+    border: .2rem solid rgb(255, 15, 55);
+    font-size: 1.6rem;
+}
+
+.search{
+    outline: none;
+    width: 10rem;
+    padding: .9rem;
+    border-radius: 4rem;
+    background-color: rgb(255, 15, 55);
+    margin-left: -10.7rem;
+    border: none;
+    font-size: 1.6rem;
+}
+
+header button:hover{
+    cursor: pointer;
+    width: 12rem;
+    margin-left: -12.8rem;
+    transition: .5s;
+    font-size: 1.6rem;
+}
+
+.main1{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    height: 50rem;
+    background-color: rgb(18, 18, 18);
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+}
+
+.left img{
+    width: 30rem;
+    height: 45rem;
+}
+
+.right{
+    width: 55rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+
+.right h1{
+    font-size: 6.4rem;
+}
+
+.right h2{
+    color: white;
+    font-family: cursive;
+    font-size: 1.8rem;
+}
+
+.right h2 span{
+    color: rgb(255, 15, 55);
+    font-size: 1.8rem;
+}
+
+.right p{
+    color: white;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    letter-spacing: .08rem;
+    font-family: cursive;
+    color: rgb(255, 220, 220);
+}
+
+.right button{
+    outline: none;
+    width: 10rem;
+    padding: .9rem;
+    border-radius: 4rem;
+    background-color: rgb(255, 15, 55);
+    margin-top: 1rem;
+    border: none;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.right button:hover{
+    background-color: rgb(18, 18, 18);
+    border: .2rem solid rgb(255, 15, 55);
+    transition: .5s;
+    color: white;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+
+.services{
+    margin-top: -4.1rem;
+    background-color: black;
+    height: 77rem;
+}
+
+.services h1{
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+    padding-top: 12rem;
+}
+
+.services-flex{
+    display: grid;
+    grid-template-columns: 25rem 25rem 25rem;
+    align-items: center;
+    justify-content: center;
+    width: 97rem;
+    margin-left: 9rem;
+    column-gap: 12rem;
+}
+
+.service1{
+    width: 30rem;
+    border-radius: 3rem;
+    background-color: rgb(34, 34, 34);
+    padding: 3rem 0rem;
+    margin-top: 8rem;
+}
+
+.service1 h3{
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    padding: 0px 0px;
+    font-weight: 800;
+}
+
+.service1 p{
+    color: white;
+    font-size: 1.4rem;
+    font-family: cursive;
+    padding: 0px 2.4rem;
+    text-align: center;
+    line-height: 2.4rem;
+    color: rgb(255, 220, 220);
+}
+
+.android{
+    color: white;
+    font-size: 5rem;
+    margin-left: 12.7rem;
+    color: rgb(255, 15, 55);
+    margin-bottom: 2rem;
+}
+
+.service1 button{
+    background-color: rgb(255, 15, 55);
+    color: white;
+    padding: 1.4rem;
+    border-radius: 4rem;
+    outline: none;
+    border: none;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    font-size: 1.4rem;
+}
+
+.service1 button:hover{
+    background-color: rgb(34, 34, 34);
+    border: .2rem solid rgb(255, 15, 55);
+    transition: .5s;
+    color: white;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+
+.hire{
+    background-color: rgb(18, 18, 18);
+    height: 20rem;
+    margin-top: -2.5rem;
+}
+
+.hire h2{
+    color: white;
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 3rem;
+    font-family: cursive;
+
+}
+
+.hire button{
+    background-color: rgb(255, 15, 55);
+    color: white;
+    padding: 1rem 1.8rem;
+    outline: none;
+    border: none;
+    border-radius: 3rem;
+    margin-left: 56.5rem;
+    font-size: 1.6rem;
+}
+
+.hire button:hover{
+    background-color: rgb(18, 18, 18);
+    border: .2rem solid rgb(255, 15, 55);
+    transition: .5s;
+    color: white;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+
+footer{
+    background-color: black;
+    height: 33rem;
+    margin-top: -2.6rem;
+}
+
+footer h1{
+    color: white;
+    text-align: center;
+    padding-top: 9rem;
+    font-size: 3.8rem;
+}
+
+footer p{
+    color: rgb(255, 220, 220);
+    text-align: center;
+    padding: 0px 39.8rem;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    font-family: cursive;
+}
+
+.contact-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+.link{
+    
+    color: white;
+    background-color: rgb(255, 15, 55);
+    padding: 2rem;
+    border-radius: 5rem;
+}
+
+.link:hover{
+    cursor: pointer;
+    padding: 2.4rem;
+    transition: .5s;
+}

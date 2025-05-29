@@ -1,0 +1,520 @@
+@media only screen and (max-width: 800px){
+    header{
+        padding-bottom: 27rem;
+    }
+
+    .menu a{
+        font-size: 2.4rem;
+    }
+
+    .content{
+        margin-top: 10rem;
+    }
+
+    .content h1{
+        font-size: 9rem;
+    }
+    
+    .content h2, h3{
+        font-size: 2rem;
+    }
+
+    input{
+        width: 40rem;
+        padding: 1.7rem;
+    }
+
+    .search{
+        padding: 1.5rem;
+    }
+
+    .main1{
+        height: 56rem;
+    }
+
+    .left img{
+        width: 34rem;
+        height: 49rem;
+    }
+
+    .right h1{
+        font-size: 7rem;
+    }
+
+    .right h2,.right h2 span{
+        font-size: 2.6rem;
+    }
+
+    .right p{
+        font-size: 1.7rem;
+    }
+
+    .right button{
+        width: 14rem;
+        padding: 1.4rem;
+    }
+
+    .services{
+        margin-top: -4.6rem;
+        height: 82rem;
+    }
+
+    .services h1{
+        font-size: 6.5rem;
+    }
+
+    .services-flex{
+        gap: 12rem;
+    }
+
+    .service1{
+        width: 33rem;
+    }
+
+    .service1 h3{
+        font-size: 2.4rem;
+    }
+
+    .service1 p{
+        font-size: 1.64rem;
+    }
+
+    .service1 button{
+        padding: 1.8rem;
+    }
+
+    .hire{
+        margin-top: -3rem;
+        height: 22rem;
+    }
+
+    .hire h2{
+        font-size: 3.4rem;
+    }
+
+    .hire button{
+        padding: 1.6rem 2.4rem;
+    }
+
+    footer{
+        margin-top: -3.2rem;
+        height: 35rem;
+    }
+
+    footer h1{
+        font-size: 4.6rem;
+    }
+
+    footer p{
+        font-size: 1.8rem;
+    }
+
+    .link{
+        padding: 2.8rem;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    header{
+        padding-bottom: 33rem;
+    }
+
+    .menu a{
+        font-size: 2.8rem;
+    }
+
+    .content{
+        margin-top: 14rem;
+    }
+
+    .content h1{
+        font-size: 9.2rem;
+    }
+    
+    .content h2, h3{
+        font-size: 2.2rem;
+    }
+
+    input{
+        width: 42rem;
+        padding: 1.8rem;
+    }
+
+    .search{
+        padding: 1.5rem;
+    }
+
+    .main1{
+        height: 58rem;
+    }
+
+    .left img{
+        width: 34rem;
+        height: 52rem;
+    }
+
+    .right h1{
+        font-size: 7.2rem;
+    }
+
+    .right h2,.right h2 span{
+        font-size: 3rem;
+    }
+
+    .right p{
+        font-size: 1.8rem;
+    }
+
+    .right button{
+        width: 16rem;
+        padding: 1.8rem;
+    }
+
+    .services{
+        margin-top: -4.6rem;
+        height: 82rem;
+    }
+
+    .services h1{
+        font-size: 6.8rem;
+    }
+
+    .services-flex{
+        gap: 13rem;
+    }
+
+    .service1{
+        width: 35rem;
+    }
+
+    .service1 h3{
+        font-size: 2.6rem;
+    }
+
+    .service1 p{
+        font-size: 1.7rem;
+    }
+
+    .service1 button{
+        padding: 2rem 2.4rem;
+        margin-left: 12rem;
+    }
+
+    .hire{
+        margin-top: -3rem;
+        height: 22rem;
+    }
+
+    .hire h2{
+        font-size: 3.4rem;
+    }
+
+    .hire button{
+        padding: 1.6rem 2.4rem;
+    }
+
+    footer{
+        margin-top: -3.5rem;
+        height: 38rem;
+    }
+
+    .android{
+        font-size: 6rem;
+        margin-left: 15rem;
+    }
+
+    footer h1{
+        font-size: 5rem;
+    }
+
+    footer p{
+        font-size: 1.8rem;
+    }
+
+    .link{
+        padding: 3rem;
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    header{
+        padding-bottom: 46rem;
+    }
+
+    .menu a{
+        font-size: 3rem;
+    }
+
+    .content{
+        margin-top: 16rem;
+    }
+
+    .content h1{
+        font-size: 9.6rem;
+    }
+    
+    .content h2, h3{
+        font-size: 2.8rem;
+    }
+
+    input{
+        width: 50rem;
+        padding: 2.2rem;
+    }
+
+    .search{
+        padding: 1.9rem;
+    }
+
+    .main1{
+        height: 58rem;
+        flex-direction: column;
+        align-items: center;
+        height: 91rem;
+        padding-bottom: 6.4rem;
+    }
+
+    .left img{
+        width: 50rem;
+        height: 52rem;
+    }
+
+    .right{
+        align-self: flex-start;
+        width: 115rem;
+    }
+
+    .right h1{
+        font-size: 7.8rem;
+    }
+
+    .right h2,.right h2 span{
+        font-size: 3.6rem;
+    }
+
+    .right p{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .right button{
+        width: 18rem;
+        padding: 2.4rem;
+        font-size: 1.8rem;
+    }
+
+    .services{
+        margin-top: -4.8rem;
+        height: 155rem;
+    }
+
+    .services h1{
+        font-size: 7rem;
+    }
+
+    .services-flex{
+        grid-template-columns: 25rem 25rem;
+        column-gap: 18rem;
+        row-gap: 0rem;
+
+    }
+
+    .service1{
+        width: 35rem;
+    }
+
+    .service1 h3{
+        font-size: 2.8rem;
+    }
+
+    .service1 p{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .service1 button{
+        padding: 2.4rem 2.8rem;
+        font-size: 1.8rem;
+        margin-left: 10rem;
+    }
+
+    .hire{
+        margin-top: -3.1rem;
+        height: 28rem;
+    }
+
+    .hire h2{
+        font-size: 3.8rem;
+    }
+
+    .hire button{
+        padding: 2rem 3rem;
+    }
+
+    footer{
+        margin-top: -4rem;
+        height: 38rem;
+    }
+
+    .android{
+        font-size: 6.6rem;
+    }
+
+    footer h1{
+        font-size: 5.8rem;
+    }
+
+    footer p{
+        font-size: 2rem;
+    }
+
+    .link{
+        padding: 3.4rem;
+        font-size: 2.4rem;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    header{
+        padding-bottom: 46rem;
+    }
+
+    .menu a{
+        font-size: 3.2rem;
+    }
+
+    .content{
+        margin-top: 20rem;
+    }
+
+    .content h1{
+        font-size: 11rem;
+    }
+    
+    .content h2, h3{
+        font-size: 3.6rem;
+    }
+
+    input{
+        width: 56rem;
+        padding: 3rem;
+        font-size: ;
+    }
+
+    .search{
+        padding: 2.7rem;
+        width: 15rem;
+        margin-left: -15.9rem;
+    }
+
+    .main1{
+        height: 58rem;
+        flex-direction: column;
+        align-items: center;
+        height: 105rem;
+        padding-bottom: 6.4rem;
+    }
+
+    .left img{
+        width: 50rem;
+        height: 55rem;
+    }
+
+    .right{
+        align-self: flex-start;
+        width: 115rem;
+    }
+
+    .right h1{
+        font-size: 8.2rem;
+    }
+
+    .right h2,.right h2 span{
+        font-size: 3.8rem;
+    }
+
+    .right p{
+        font-size: 2.4rem;
+        line-height: 3.4rem;
+    }
+
+    .right button{
+        width: 18rem;
+        padding: 2.6rem;
+        font-size: 2rem;
+    }
+
+    .services{
+        margin-top: -5.4rem;
+        height: 168rem;
+    }
+
+    .services h1{
+        font-size: 8rem;
+    }
+
+    .services-flex{
+        grid-template-columns: 25rem 25rem;
+        column-gap: 22rem;
+        row-gap: 0rem;
+        margin-left: 6.8rem;
+
+    }
+
+    .service1{
+        width: 40rem;
+    }
+
+    .service1 h3{
+        font-size: 3.4rem;
+    }
+
+    .service1 p{
+        font-size: 2.4rem;
+        line-height: 3.4rem;
+    }
+
+    .service1 button{
+        padding: 2.4rem 3.4rem;
+        font-size: 2rem;
+        margin-left: 12rem;
+    }
+
+    .hire{
+        margin-top: -3.6rem;
+        height: 32rem;
+    }
+
+    .hire h2{
+        font-size: 4.4rem;
+    }
+
+    .hire button{
+        padding: 2.4rem 5rem;
+    }
+
+    footer{
+        margin-top: -4.5rem;
+        height: 46rem;
+    }
+
+    .android{
+        font-size: 7rem;
+        margin-left: 16.5rem;
+    }
+
+    footer h1{
+        font-size: 6.8rem;
+    }
+
+    footer p{
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+
+    .link{
+        padding: 3.8rem;
+        font-size: 2.8rem;
+    }
+}

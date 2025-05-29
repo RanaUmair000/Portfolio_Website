@@ -1,0 +1,148 @@
+@media only screen and (max-width: 1200px){
+    .container3{
+        grid-template-columns: 30% 30% 30%;
+    }   
+    header{
+        height: 540px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .container3{
+        grid-template-columns: 33% 33% 33%;
+        width: 86%;
+        
+    }
+    header{
+        height: 550px;
+    }
+
+    header h1{
+        font-size: 52px;
+    }
+
+    header h3{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .container3{
+        grid-template-columns: 44% 44%;
+        row-gap: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    nav{
+        flex-direction: column;
+        background-color: rgb(18, 18, 18);
+        width: 100%;
+    }
+
+    .head-content{
+    }
+
+    .nav-btn{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .container2{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .left2{
+        width: 100%;
+    }
+
+    .left2 img{
+        width: 100%;
+        height: auto;
+    }
+
+    .right2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-head{
+        display: none !important;
+    }
+
+    .about-head2{
+        display: block !important;
+        text-align: center;
+    }
+
+    .container3{
+        grid-template-columns: 100%;
+    }
+
+    .container4{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .fourth-sec{
+        height: 250px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    header{
+        height: 720px;
+    }
+
+    .head-content{
+        top: 25%;
+    }
+
+    .name h1{
+        font-size: 52px;
+        text-align: center;
+        display: block;
+    }
+
+    .up-line h3, .tag-line{
+        text-align: center;
+    }
+
+    .input-field{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 60px;
+        height: 130px;
+    }
+
+    .content-btn{
+        margin: 0 auto;
+        padding: 14px 40px;
+    }
+
+    .input-field input{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 392px){
+    .menu{
+        display: none;
+        margin: 0;
+    }
+
+    nav{
+        justify-content: center;
+    }
+
+    .nav-btn{
+        margin-top: 0px;
+    }
+}
